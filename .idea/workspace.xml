@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Patron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Periodical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Student.java" afterDir="false" />
+    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Added previous project files to this repo">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/AuthorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -44,6 +37,9 @@
     &quot;accountId&quot;: &quot;0fe0e075-7162-428b-a814-d93e8dc98a39&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -53,14 +49,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;add-previous-project-files&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/keyinstudent/IdeaProjects/Fall2024_SDAT_DevOps_QAP1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo.executor": "Run",
+    "JUnit.AuthorTest.testAddWrittenItem.executor": "Run",
+    "JUnit.BookTest.testGetGenre.executor": "Run",
+    "Maven.Fall2024_SDAT_DevOps_QAP1 [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "add-tests",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/keyinstudent/IdeaProjects/Fall2024_SDAT_DevOps_QAP1"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.PatronTest.testRemoveBorrowedItem">
+    <configuration name="AuthorTest.testAddWrittenItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fall2024_SDAT_DevOps_QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.AuthorTest" />
+      <option name="METHOD_NAME" value="testAddWrittenItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest.testGetGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fall2024_SDAT_DevOps_QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.BookTest" />
+      <option name="METHOD_NAME" value="testGetGenre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testBookListContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fall2024_SDAT_DevOps_QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.LibraryTest" />
+      <option name="METHOD_NAME" value="testBookListContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatronTest.testRemoveBorrowedItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fall2024_SDAT_DevOps_QAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.PatronTest" />
+      <option name="METHOD_NAME" value="testRemoveBorrowedItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PatronTest.testRemoveBorrowedItem" />
+        <item itemvalue="JUnit.LibraryTest.testBookListContains" />
+        <item itemvalue="JUnit.BookTest.testGetGenre" />
+        <item itemvalue="JUnit.AuthorTest.testAddWrittenItem" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +144,19 @@
       <option name="presentableId" value="Default" />
       <updated>1727449076554</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added previous project files to this repo">
+      <option name="closed" value="true" />
+      <created>1727450168873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727450168873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added previous project files to this repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added previous project files to this repo" />
   </component>
 </project>
