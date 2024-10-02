@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthorTest.testAddWrittenItem" />
-        <item itemvalue="JUnit.AuthorTest" />
         <item itemvalue="JUnit.PatronTest.testRemoveBorrowedItem" />
         <item itemvalue="JUnit.LibraryTest.testBookListContains" />
         <item itemvalue="JUnit.java in Fall2024_SDAT_DevOps_QAP1" />
+        <item itemvalue="JUnit.AuthorTest.testAddWrittenItem" />
+        <item itemvalue="JUnit.AuthorTest" />
       </list>
     </recent_temporary>
   </component>
