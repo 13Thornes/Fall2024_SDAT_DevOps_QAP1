@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Deleted a useless comment so I can re merge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/LibraryTest.java" afterDir="false" />
+    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="fixing pom.xml file">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/AuthorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/AuthorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     "last_opened_file_path": "/Users/keyinstudent/IdeaProjects/Fall2024_SDAT_DevOps_QAP1"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AuthorTest">
+  <component name="RunManager" selected="JUnit.AuthorTest.testAddWrittenItem">
     <configuration name="AuthorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fall2024_SDAT_DevOps_QAP1" />
       <extension name="coverage">
@@ -84,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.testGetGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorTest.testAddWrittenItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fall2024_SDAT_DevOps_QAP1" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +91,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.keyin" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.BookTest" />
-      <option name="METHOD_NAME" value="testGetGenre" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.AuthorTest" />
+      <option name="METHOD_NAME" value="testAddWrittenItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthorTest.testAddWrittenItem" />
         <item itemvalue="JUnit.AuthorTest" />
         <item itemvalue="JUnit.PatronTest.testRemoveBorrowedItem" />
         <item itemvalue="JUnit.LibraryTest.testBookListContains" />
         <item itemvalue="JUnit.java in Fall2024_SDAT_DevOps_QAP1" />
-        <item itemvalue="JUnit.BookTest.testGetGenre" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +181,41 @@
       <option name="project" value="LOCAL" />
       <updated>1727878384744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixing pom.xml file">
+      <option name="closed" value="true" />
+      <created>1727898454211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727898454211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixing pom.xml file">
+      <option name="closed" value="true" />
+      <created>1727898518171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727898518171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added previous project files to this repo" />
     <MESSAGE value="Added a useless comment so I can re merge" />
     <MESSAGE value="Deleted a useless comment so I can re merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted a useless comment so I can re merge" />
+    <MESSAGE value="fixing pom.xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing pom.xml file" />
   </component>
 </project>
