@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LibraryTest {
-    @Test
+    @test
     public void testBookListContains() {
         Author testAuthor = new Author("JohnDoe", "1987/12/11");
         Book testBook1 = new Book(150, "Secret Garden", testAuthor,"A6H9G3", "Greenwood", 5, "P", "Romance");

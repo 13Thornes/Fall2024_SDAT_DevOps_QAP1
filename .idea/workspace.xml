@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Added previous project files to this repo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/AuthorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Added tests for Library appliation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +49,8 @@
     "Application.Demo.executor": "Run",
     "JUnit.AuthorTest.testAddWrittenItem.executor": "Run",
     "JUnit.BookTest.testGetGenre.executor": "Run",
+    "JUnit.LibraryTest.testBookListContains.executor": "Run",
+    "JUnit.PatronTest.testRemoveBorrowedItem.executor": "Run",
     "Maven.Fall2024_SDAT_DevOps_QAP1 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "add-tests",
@@ -152,11 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1727450168873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added tests for Library appliation">
+      <option name="closed" value="true" />
+      <created>1727457436255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727457436255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added previous project files to this repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added previous project files to this repo" />
+    <MESSAGE value="Added tests for Library appliation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for Library appliation" />
   </component>
 </project>
