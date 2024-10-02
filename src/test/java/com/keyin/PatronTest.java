@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class PatronTest {
-    @test
+    @Test
     public void testRemoveBorrowedItem() {
         Student testStudent = new Student(790, "JaneSmith", "543NorthSt", "7986572453", 145, "Herman", 12);
         Author testAuthor = new Author("JohnDoe", "1987/12/11");
