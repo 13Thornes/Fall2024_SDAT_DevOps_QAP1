@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Added previous project files to this repo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/AuthorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Added previous project files to this repo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add-tests" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -54,14 +54,15 @@
     "Application.Demo.executor": "Run",
     "JUnit.AuthorTest.testAddWrittenItem.executor": "Run",
     "JUnit.BookTest.testGetGenre.executor": "Run",
+    "JUnit.java in Fall2024_SDAT_DevOps_QAP1.executor": "Run",
     "Maven.Fall2024_SDAT_DevOps_QAP1 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "add-tests",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/keyinstudent/IdeaProjects/Fall2024_SDAT_DevOps_QAP1"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PatronTest.testRemoveBorrowedItem">
+  <component name="RunManager" selected="JUnit.java in Fall2024_SDAT_DevOps_QAP1">
     <configuration name="AuthorTest.testAddWrittenItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fall2024_SDAT_DevOps_QAP1" />
       <extension name="coverage">
@@ -126,8 +127,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in Fall2024_SDAT_DevOps_QAP1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fall2024_SDAT_DevOps_QAP1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in Fall2024_SDAT_DevOps_QAP1" />
         <item itemvalue="JUnit.PatronTest.testRemoveBorrowedItem" />
         <item itemvalue="JUnit.LibraryTest.testBookListContains" />
         <item itemvalue="JUnit.BookTest.testGetGenre" />
