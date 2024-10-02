@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Added previous project files to this repo" />
+    <list default="true" id="0497492a-96d1-402e-b51f-7fadd4ef0749" name="Changes" comment="Deleted a useless comment so I can re merge">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/LibraryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add-tests" />
+        <entry key="$PROJECT_DIR$" value="push-branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,9 +56,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Demo.executor": "Run",
+    "JUnit.AuthorTest.executor": "Run",
     "JUnit.AuthorTest.testAddWrittenItem.executor": "Run",
     "JUnit.BookTest.testGetGenre.executor": "Run",
     "JUnit.java in Fall2024_SDAT_DevOps_QAP1.executor": "Run",
+    "Maven.Fall2024_SDAT_DevOps_QAP1 [package].executor": "Run",
     "Maven.Fall2024_SDAT_DevOps_QAP1 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -62,8 +68,8 @@
     "last_opened_file_path": "/Users/keyinstudent/IdeaProjects/Fall2024_SDAT_DevOps_QAP1"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.java in Fall2024_SDAT_DevOps_QAP1">
-    <configuration name="AuthorTest.testAddWrittenItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AuthorTest">
+    <configuration name="AuthorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fall2024_SDAT_DevOps_QAP1" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.keyin" />
       <option name="MAIN_CLASS_NAME" value="com.keyin.AuthorTest" />
-      <option name="METHOD_NAME" value="testAddWrittenItem" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in Fall2024_SDAT_DevOps_QAP1" />
+        <item itemvalue="JUnit.AuthorTest" />
         <item itemvalue="JUnit.PatronTest.testRemoveBorrowedItem" />
         <item itemvalue="JUnit.LibraryTest.testBookListContains" />
+        <item itemvalue="JUnit.java in Fall2024_SDAT_DevOps_QAP1" />
         <item itemvalue="JUnit.BookTest.testGetGenre" />
-        <item itemvalue="JUnit.AuthorTest.testAddWrittenItem" />
       </list>
     </recent_temporary>
   </component>
@@ -162,11 +167,29 @@
       <option name="project" value="LOCAL" />
       <updated>1727450168873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a useless comment so I can re merge">
+      <option name="closed" value="true" />
+      <created>1727878317146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727878317146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deleted a useless comment so I can re merge">
+      <option name="closed" value="true" />
+      <created>1727878384744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727878384744</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added previous project files to this repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added previous project files to this repo" />
+    <MESSAGE value="Added a useless comment so I can re merge" />
+    <MESSAGE value="Deleted a useless comment so I can re merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted a useless comment so I can re merge" />
   </component>
 </project>
